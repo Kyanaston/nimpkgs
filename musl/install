@@ -1,0 +1,12 @@
+#!/bin/sh
+
+DIR=$(dirname "$0")
+
+echo "Installing..."
+sleep 3
+cd $DIR
+mkdir /usr/include
+cp -r -a $(pwd)/lib/* /lib/ > /dev/null
+cp -r -a $(pwd)/usr/include/* /usr/include/ > /dev/null
+echo "Installation finished."
+exit 0

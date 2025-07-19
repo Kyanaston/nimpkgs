@@ -1,0 +1,6 @@
+NAME=Musl
+PRETTY_NAME="Musl LibC v1.2.5"
+VERSION="1.2.5"
+DESC="musl is an implementation of the C standard library built on top of the Linux system call API, including interfaces defined in the base language standard, POSIX, and widely agreed-upon extensions."
+DOWNLOAD="https://github.com/Kyanaston/nimpkgs/raw/refs/head/main/musl/musl.tar.gz"
+SOURCE="https://musl.libc.org/releases/musl-1.2.5.tar.gz"
