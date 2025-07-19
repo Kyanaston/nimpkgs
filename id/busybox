@@ -1,0 +1,7 @@
+NAME=BusyBox
+PRETTY_NAME="BusyBox v1.37.0"
+VERSION="1.37.0"
+DESC="BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides replacemnets for the most of the utilities you usually find in GNU fileutils, shellutils, etc."
+DOWNLOAD="https://github.com/Kyanaston/nimpkgs/raw/refs/head/main/busybox/busybox.tar.gz"
+SOURCE="https:/busybox.net/downloads/busybox-1.37.0.tar.bz2"
+DEPENDS_ON=musl
