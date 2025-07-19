@@ -1,0 +1,6 @@
+NAME="X.Org Server"
+PRETTY_NAME="X.Org Server v1.21.1.99"
+VERSION="1.21.1.99"
+DESC="Open source implemetation of the X Window System."
+DOWNLOAD="https://github.com/Kyanaston/nimpkgs/raw/refs/heads/main/xorg-server/xorg-server.tar.gz
+
