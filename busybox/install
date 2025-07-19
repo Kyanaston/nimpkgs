@@ -6,7 +6,7 @@ echo "Installing..."
 sleep 3
 cd $DIR
 cp -r -a $(pwd)/bin/busybox /usr/bin/ > /dev/null
-/usr/bin/busybox --install -f -s /usr/bin/ > /dev/null
+/usr/bin/busybox --install -s /usr/bin
 sync
 echo "Installation finished."
 exit 0
