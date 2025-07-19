@@ -1,0 +1,13 @@
+#!/bin/sh
+
+DIR=$(dirname "$0")
+
+echo "Installing..."
+sleep 3
+cd $DIR
+mkdir /usr/share > /dev/null
+cp -a -r $(pwd)/bin/* /bin/ > /dev/null
+cp -a -r $(pwd)/lib/* /lib/ > /dev/null
+cp -a -r $(pwd)/usr/share/* /usr/share/ > /dev/null
+echo "Installation finished."
+exit 0

@@ -1,0 +1,6 @@
+NAME=Vim
+PRETTY_NAME="VI iMproved v9.1.1582"
+VERSION="9.1.1582"
+DESC="Vim is a free and open-source, screen-based text editor program. It is a improved clone of vi."
+DOWNLOAD="https://github.com/Kyanaston/nimpkgs/raw/refs/head/main/vim/vim.tar.gz"
+SOURCE="https://github.com/vim/vim"
