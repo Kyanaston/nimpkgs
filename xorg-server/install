@@ -1,0 +1,18 @@
+#!/bin/sh
+
+DIR=$(dirname "$0")
+
+echo "Installing..."
+sleep 3
+cd $DIR
+cp -r -a $(pwd)/lib/* /lib/ > /dev/null
+cp -r -a $(pwd)/bin/* /bin/ > /dev/null
+mkdir /usr/include > /dev/null
+mkdir /usr/include/xorg > /dev/null
+mkdir /usr/include/openssl > /dev/null
+mkdir /usr/share > /dev/null 
+cp -r -a $(pwd)/usr/include/xorg/* /usr/include/xorg/ > /dev/null
+cp -r -a $(pwd)/usr/include/openssl/* /usr/include/openssl/ > /dev/null
+cp -r -a $(pwd)/usr/share/* /usr/share/ > /dev/null
+echo "Installation finished."
+exit 0
