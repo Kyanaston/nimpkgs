@@ -1,0 +1,14 @@
+#!/bin/sh
+
+DIR=$(dirname "$0")
+
+echo "Installing..."
+sleep 3
+cd $DIR
+cp -r -a $(pwd)/lib/* /lib/ > /dev/null
+cp -r -a $(pwd)/bin/* /bin/ > /dev/null
+mkdir /usr/share > /dev/null
+mkdir /usr/share/fluxbox > /dev/null
+cp -r -a $(pwd)/usr/share/fluxbox/* /usr/share/fluxbox/ > /dev/null
+echo "Installation finished."
+exit 0
