@@ -1,0 +1,11 @@
+#!/bin/sh
+
+DIR=$(dirname "$0")
+
+echo "Installing..."
+sleep 3
+cd $DIR
+cp -r -a $(pwd)/boot/linux /boot > /dev/null
+sync
+echo "Installation finished."
+exit 0
